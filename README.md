@@ -16,6 +16,14 @@ Modification:
 
   So, you need to modify the miniupnpd to bypass the reserved IP check.
 
+## Generate the patch
+
+Example:
+
+```bash
+git diff 2.3.3 modify-2.3.3:src/ > ../000-bypass-reserved-ip-check.patch
+```
+
 ## Reference
 
 - [official miniupnpd](https://miniupnp.tuxfamily.org/)
